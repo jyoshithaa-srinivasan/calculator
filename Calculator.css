@@ -1,0 +1,34 @@
+body{
+    background-color:black;
+    font-family:Arial;
+
+}
+button{
+    border:none;
+    height:55px;
+    width:55px;
+    border-radius:30px;
+    color:white;
+    font-weight:700px;
+    font-size:20px;
+    margin-right:4px;
+    cursor:pointer;
+   
+}
+.display-Calculation{
+    color:white;
+    font-size:40px;
+    margin-bottom:0;
+}
+.Number-button{
+    background-color:rgb(51,51,51);
+    
+
+}
+.operator-button{
+    background-color:rgb(254,160,10);
+    
+}
+.clear-button{
+    font-size:17px;
+}
