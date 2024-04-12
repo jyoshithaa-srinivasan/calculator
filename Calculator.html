@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Calculator</title>
+        <link rel="stylesheet" href="styles/calculator.css">
+    </head>
+    <body>
+        <p class="js-displayCalculation display-Calculation"></p>
+        <p>
+            <button onclick="
+            printCalculation('1');
+        " class="Number-button">1</button>
+        <button onclick="
+            printCalculation('2');
+         " class="Number-button">2</button>
+        <button onclick="
+           printCalculation('3');
+        " class="Number-button">3</button>
+        <button onclick="
+           printCalculation('+');
+        " class="operator-button" >+</button>
+        </p>
+        <p>
+            <button onclick="
+            printCalculation('4');
+        " class="Number-button">4</button>
+        <button onclick="
+            printCalculation('5');
+        " class="Number-button">5</button>
+        <button onclick="
+           printCalculation('6');
+        " class="Number-button">6</button>
+        <button onclick="
+           printCalculation('-');
+        " class="operator-button" >-</button>
+        </p>
+        <p>
+            <button onclick="
+            printCalculation('7');
+        " class="Number-button">7</button>
+        <button onclick="
+            printCalculation('8');
+        " class="Number-button">8</button>
+        <button onclick="
+            printCalculation('9');
+        " class="Number-button">9</button>
+        <button onclick="
+            printCalculation('*');
+        " class="operator-button" >*</button>
+        </p>
+        <p>
+            <button onclick="
+                printCalculation('0');
+                "class="Number-button"
+            >0</button>
+            <button onclick="
+                printCalculation('.');
+            "class="Number-button"
+        >.</button>
+        
+            <button onclick="
+            calculation = eval(calculation);
+            
+            displayCalculation();
+            
+        " class="Number-button">=</button>
+        <button onclick="
+            printCalculation('/');
+            " class="operator-button"
+        >/</button>
+        </p>
+        <p>
+            <button onclick="
+                calculation='';
+                displayCalculation();
+                saveCalculation();
+            " class="Number-button clear-button">Clear</button>
+        </p>
+        
+        
+        <script src="scripts/calculator.js">
+            
+        </script>
+    </body>
+</html>
